@@ -17,6 +17,11 @@ Route::get('/', function () {
 
 Route::get('/','PageController@index')->name('index');
 
+Route::get('/personals','PageController@personals')->name('personals');
+
+Route::get('/personals/{emp_no}/{slug}','EmployeesController@showEmployee')->where('id','\d+')->name('employee.show');
+
+
 
 
 

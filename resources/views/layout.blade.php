@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="{{asset('css/cs-skin-elastic.css')}}">
     <!-- <link rel="stylesheet" href="assets/css/bootstrap-select.less"> -->
     <link rel="stylesheet" href="{{asset('scss/style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/admin.css')}}">
     <link href="{{asset('css/lib/vector-map/jqvmap.min.css')}}" rel="stylesheet">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
@@ -39,6 +40,7 @@
 <script src="{{asset('js/lib/vector-map/jquery.vmap.min.js')}}"></script>
 <script src="{{asset('js/lib/vector-map/jquery.vmap.sampledata.js')}}"></script>
 <script src="{{asset('js/lib/vector-map/country/jquery.vmap.world.js')}}"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 <script>
     ( function ( $ ) {
         "use strict";
