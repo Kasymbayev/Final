@@ -16,4 +16,25 @@ class Employee extends Model
         'gender',
         'hire_date',
     ];
-}
+
+    function departments() {
+    return $this->belongsToMany(
+        'App\Department',
+        'dept_emp',
+        'emp_no',
+        'dept_no'
+        );
+    }
+
+    function dept_emp() {
+    return $this->hasMany('App\Employee', 'emp_no');
+    }
+
+    function salaries() {
+    return $this->hasMany('App\Salary', 'emp_no');
+    }
+
+    function dept_manager() {
+    return $this->hasOne('App\Dept_Manager', 'emp_no');
+    }
+    }

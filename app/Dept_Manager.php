@@ -14,4 +14,10 @@ class Dept_Manager extends Model
         'from_date',
         'to_date',
     ];
-}
+
+    function department() {
+    return $this->belongsTo(
+        'App\Department',
+        'dept_no');
+        }
+    }

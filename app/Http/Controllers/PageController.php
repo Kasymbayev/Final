@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Employee;
+use App\Salary;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 

@@ -87,7 +87,7 @@
                     <br>
                     <p>Имя: {{$employees->first_name}}</p>
                     <p>Фамилия: {{$employees->last_name}}</p>
-                    <p>Заработная плата: {{}}</p>
+                    <p>Заработная плата: {{$salaries->salary}} Тенге</p>
             </div>
         </div> <!-- .content -->
     </div>
